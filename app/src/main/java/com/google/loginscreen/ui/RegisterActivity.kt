@@ -1,11 +1,11 @@
-package com.google.loginscreen.activities
+package com.google.loginscreen.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.loginscreen.database.DataBaseHelper
-import com.google.loginscreen.User
+import com.google.loginscreen.database.models.User
 import com.google.loginscreen.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
