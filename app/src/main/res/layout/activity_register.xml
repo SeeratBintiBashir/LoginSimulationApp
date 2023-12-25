@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".activities.RegisterActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back_from_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_arrow_back_24"/>
+
+
+            <TextView
+                android:id="@+id/textHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:layout_weight="700"
+                android:fontFamily="@font/inter"
+                android:text="Register"
+                android:textColor="@color/blue"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dashboardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text="Create an account to access all the features of Maxpense!"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text="Email"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/baseline_alternate_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Ex: abc@example.com"
+                android:padding="8dp"
+                android:background="@drawable/custom_edit_text"
+                android:inputType="textEmailAddress" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text="Your Name"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/registerUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/baseline_person_outline_24"
+                android:drawablePadding="8dp"
+                android:hint="Ex. Seerat "
+                android:padding="8dp"
+                android:background="@drawable/custom_edit_text"
+                android:inputType="text" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text="Your Password"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:padding="8dp"
+                android:background="@drawable/custom_edit_text"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:backgroundTint="@color/blue"
+                android:layout_marginTop="48dp"
+                />
+
+            <TextView
+                android:id="@+id/login_already_registered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text="Already have an account? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
